@@ -500,9 +500,7 @@ header {
       float: left; }
     header nav .timmy {
       display: inline-block;
-      font-size: 2em;
-      font-weight: 300;
-      margin-left: 27%; }
+      margin-left: 28%; }
     header nav .timmy:hover {
       text-decoration: none; }
     header nav .about {
