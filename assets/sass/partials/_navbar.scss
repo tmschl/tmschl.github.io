@@ -19,7 +19,7 @@ header {
       background-color: white;
       padding-top: 25px;
       padding-bottom: 25px;
-      border-bottom: 1px solid gray;
+      border-bottom: 1px solid #61A7D8;
 
     }
 
@@ -31,9 +31,14 @@ header {
     .timmy {
 
       display: inline-block;
-      font-weight: $light;
-      margin-left: 25%;
+      font-size: 2em;
+      font-weight: 300;
+      margin-left: 27%;
 
+    }
+
+    .timmy:hover {
+      text-decoration: none;
     }
 
     .about {
@@ -45,7 +50,7 @@ header {
     a {
 
       font-size: $base-t-lh;
-      font-weight: $bold;
+      font-weight: 200;
 
     }
 
