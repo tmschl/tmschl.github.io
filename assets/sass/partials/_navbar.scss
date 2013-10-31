@@ -1,23 +1,25 @@
-.navbar {
+header {
 
-  background: $asset-c;
-  padding: 20px 0;
-
-  .logo {
-    display: inline;
-  }
+  width: 100%;
+  height: 140px;
 
   nav {
-    display: inline;
+
+    display: inline-block;
     float: right;
-  }
+    width: 80%;
+    padding-top: 70px;
 
-  ul {
-    display: inline;
-  }
+    .navbar{
+      display: inline-block;
+    }
 
-  li {
-    display: inline;
-  }
+    .title {
+      display: inline-block;
+    }
 
+    a {
+      margin-right: 70px;
+    }
+  }
 }
