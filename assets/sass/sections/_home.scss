@@ -2,11 +2,25 @@
   display: inline-block;
   float: right;
   width: 80%;
+
   ul {
+
+    margin-top: 0px;
     list-style-type: none;
     padding: 0px;
+
+    h1 {
+      display: inline-block;
+      margin-bottom: 0px;
+    }
+
     span {
       font-weight: $light;
+    }
+
+    .line {
+     display: inline-block;
+     margin-left: 20%;
     }
   }
 }

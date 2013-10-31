@@ -1,0 +1,22 @@
+article {
+
+  width: 80%;
+  float: right;
+
+  h1 {
+    display: block;
+    width: 100%;
+    float: left;
+    font-weight: $light;
+    margin-top: 0px;
+    margin-bottom: 50px;
+  }
+
+  p {
+    width: 80%;
+    font-weight: $light;
+    padding-bottom: $base-t-s;
+    line-height: $base-t-lh;
+ }
+
+}

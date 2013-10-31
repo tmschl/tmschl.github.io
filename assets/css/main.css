@@ -481,15 +481,21 @@ html {
 
 header {
   width: 100%;
-  height: 140px; }
+  height: 125px;
+  display: block; }
   header nav {
     display: inline-block;
     float: right;
-    width: 80%;
-    padding-top: 50px; }
+    width: 80%; }
     header nav .navbar {
       display: inline-block;
-      width: 75%; }
+      opacity: 0.98;
+      width: 64.5%;
+      position: fixed;
+      background-color: white;
+      padding-top: 25px;
+      padding-bottom: 25px;
+      border-bottom: 1px solid gray; }
     header nav .musings {
       float: left; }
     header nav .timmy {
@@ -575,7 +581,30 @@ table {
   float: right;
   width: 80%; }
   .home ul {
+    margin-top: 0px;
     list-style-type: none;
     padding: 0px; }
+    .home ul h1 {
+      display: inline-block;
+      margin-bottom: 0px; }
     .home ul span {
       font-weight: 100; }
+    .home ul .line {
+      display: inline-block;
+      margin-left: 20%; }
+
+article {
+  width: 80%;
+  float: right; }
+  article h1 {
+    display: block;
+    width: 100%;
+    float: left;
+    font-weight: 100;
+    margin-top: 0px;
+    margin-bottom: 50px; }
+  article p {
+    width: 80%;
+    font-weight: 100;
+    padding-bottom: 1.125em;
+    line-height: 1.5em; }
