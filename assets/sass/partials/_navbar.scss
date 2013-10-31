@@ -8,18 +8,27 @@ header {
     display: inline-block;
     float: right;
     width: 80%;
-    padding-top: 70px;
+    padding-top: 50px;
 
     .navbar{
       display: inline-block;
+      width: 75%;
     }
 
-    .title {
+    .musings {
+      float: left;
+    }
+    .timmy {
       display: inline-block;
+      font-weight: $light;
+      margin-left: 25%;
     }
-
+    .about {
+      float: right;
+    }
     a {
-      margin-right: 70px;
+      font-size: $base-t-lh;
+      font-weight: $bold;
     }
   }
 }

@@ -474,9 +474,6 @@ html {
   font-size: 1.125em;
   line-height: 1.5em; }
 
-.home {
-  display: none; }
-
 .container {
   max-width: 1200px;
   padding: 0 20px;
@@ -489,13 +486,21 @@ header {
     display: inline-block;
     float: right;
     width: 80%;
-    padding-top: 70px; }
+    padding-top: 50px; }
     header nav .navbar {
-      display: inline-block; }
-    header nav .title {
-      display: inline-block; }
+      display: inline-block;
+      width: 75%; }
+    header nav .musings {
+      float: left; }
+    header nav .timmy {
+      display: inline-block;
+      font-weight: 100;
+      margin-left: 25%; }
+    header nav .about {
+      float: right; }
     header nav a {
-      margin-right: 70px; }
+      font-size: 1.5em;
+      font-weight: 600; }
 
 .btn {
   border: 3px solid #454545;
@@ -564,3 +569,13 @@ table {
       border: 1px solid #f2f2f2; }
   table tbody tr td {
     border: 1px solid #f2f2f2; }
+
+.home {
+  display: inline-block;
+  float: right;
+  width: 80%; }
+  .home ul {
+    list-style-type: none;
+    padding: 0px; }
+    .home ul span {
+      font-weight: 100; }

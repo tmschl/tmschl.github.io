@@ -3,7 +3,6 @@
 
 // Import Partials
 @import "partials/typography";
-@import "partials/main";
 @import "partials/containers";
 @import "partials/navbar";
 @import "partials/buttons";
@@ -13,3 +12,6 @@
 @import "partials/menus";
 @import "partials/footer";
 @import "partials/tables";
+
+// Import Sections
+@import "sections/home";
