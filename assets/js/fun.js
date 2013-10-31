@@ -13,7 +13,6 @@ $(function(){
     },
     mouseleave: function() {
       $(this).css("color", "black");
-      console.log('bye');
     }
   });
 
