@@ -469,6 +469,36 @@ table {
   .desk-eleven-twelfths {
     width: 91.666%; } }
 
+@font-face {
+  font-family: 'icons';
+  src: url('/assets/fonts/fontello.svg') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icons';
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  speak: none;
+  text-transform: none; }
+
+.icon-rdio:before {
+  content: '\e800'; }
+
+.icon-twitter:before {
+  content: '\e802'; }
+
+.icon-github:before {
+  content: '\e803'; }
+
+@font-face {
+  font-family: 'good_foot';
+  src: url('/assets/fonts/goodfoot.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal; }
+
 html {
   font-family: 'Oxygen', helvetica, sans-serif;
   font-size: 1.125em;
@@ -478,6 +508,32 @@ html {
   max-width: 1200px;
   padding: 0 20px;
   margin: 0 auto; }
+
+.top-bar {
+  background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(227, 228, 229, 0.4)), transparent !important;
+  background-color: white;
+  height: 70px; }
+  .top-bar .left {
+    background: none;
+    margin-top: 15px; }
+    .top-bar .left li .no-hover:hover {
+      border: none; }
+    .top-bar .left li a {
+      background: none !important;
+      color: #658ded;
+      font-family: 'Montserrat';
+      font-size: 1.3rem; }
+      .top-bar .left li a:hover {
+        border: 1px solid #658ded;
+        color: #658ded; }
+
+.burger {
+  border-right: none !important;
+  box-shadow: none !important;
+  margin-top: 10px; }
+  .burger .hamburger {
+    -webkit-box-shadow: 1px 10px 1px 1px #658ded, 1px 16px 1px 1px #658ded, 1px 22px 1px 1px #658ded;
+    box-shadow: 0 10px 0 1px #658ded, 0 16px 0 1px #658ded, 0 22px 0 1px #658ded; }
 
 .btn {
   border: 3px solid #454545;

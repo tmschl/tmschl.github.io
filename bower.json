@@ -4,6 +4,9 @@
   "main": "assets/styles.css",
   "dependencies": {
     "jquery": "latest",
-  	"normalize-css": "latest"
+    "normalize-css": "latest"
+  },
+  "devDependencies": {
+    "foundation": "~5.1.1"
   }
 }

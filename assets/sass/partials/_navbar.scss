@@ -1,1 +1,43 @@
+.top-bar {
+  background: linear-gradient(rgba(255,255,255,0.4),rgba(227,228,229,0.4)),transparent !important;
+  background-color: #fff;
+  height: 70px;
 
+  .left {
+    background: none;
+    margin-top: 15px;
+
+    li {
+      .no-hover {
+        &:hover {
+          border: none;
+        }
+      }
+
+      a {
+        background: none !important;
+        color: #658ded;
+        font-family: 'Montserrat';
+        font-size: 1.3rem;
+
+
+        &:hover {
+          border: 1px solid #658ded;
+          color: #658ded;
+        }
+      }
+    }
+  }
+}
+
+.burger {
+  border-right: none !important;
+  box-shadow: none !important;
+  margin-top: 10px;
+
+
+  .hamburger{
+    -webkit-box-shadow: 1px 10px 1px 1px #658ded, 1px 16px 1px 1px #658ded, 1px 22px 1px 1px #658ded;
+    box-shadow: 0 10px 0 1px #658ded, 0 16px 0 1px #658ded, 0 22px 0 1px #658ded;
+  }
+}
