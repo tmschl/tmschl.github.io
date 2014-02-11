@@ -41,3 +41,16 @@
     box-shadow: 0 10px 0 1px #658ded, 0 16px 0 1px #658ded, 0 22px 0 1px #658ded;
   }
 }
+
+body,
+html,
+.page {
+  height:100%;
+  width:100%;
+}
+
+.off-canvas-wrap,
+.inner-wrap {
+  height:100%;
+}
+

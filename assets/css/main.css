@@ -535,6 +535,13 @@ html {
     -webkit-box-shadow: 1px 10px 1px 1px #658ded, 1px 16px 1px 1px #658ded, 1px 22px 1px 1px #658ded;
     box-shadow: 0 10px 0 1px #658ded, 0 16px 0 1px #658ded, 0 22px 0 1px #658ded; }
 
+body, html, .page {
+  height: 100%;
+  width: 100%; }
+
+.off-canvas-wrap, .inner-wrap {
+  height: 100%; }
+
 .btn {
   border: 3px solid #454545;
   background: #454545;
