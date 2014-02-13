@@ -504,14 +504,15 @@ html {
   font-size: 1.125em;
   line-height: 1.5em; }
 
-.container {
-  max-width: 1200px;
-  padding: 0 20px;
-  margin: 0 auto; }
+.title-wrapper {
+  height: 700px;
+  background: white; }
 
 .top-bar {
-  background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(227, 228, 229, 0.4)), transparent !important;
-  background-color: white;
+  position: fixed;
+  width: 100%;
+  background: linear-gradient(rgba(225, 225, 225, 0.4), rgba(225, 225, 225, 0.4)), transparent !important;
+  background: #fcfcfc;
   height: 70px; }
   .top-bar .left {
     background: none;
@@ -520,12 +521,12 @@ html {
       border: none; }
     .top-bar .left li a {
       background: none !important;
-      color: #658ded;
+      color: #333333;
       font-family: 'Montserrat';
       font-size: 1.3rem; }
       .top-bar .left li a:hover {
-        border: 1px solid #658ded;
-        color: #658ded; }
+        border: 1px solid #333333;
+        color: #333333; }
   .top-bar .avatar-section {
     width: 51.95%;
     background: rgba(255, 255, 255, 0.1); }

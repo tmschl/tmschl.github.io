@@ -1,6 +1,8 @@
 .top-bar {
-  background: linear-gradient(rgba(255,255,255,0.4),rgba(227,228,229,0.4)),transparent !important;
-  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  background: linear-gradient(rgba(225,225,225,0.4),rgba(225,225,225,0.4)),transparent !important;
+  background: #fcfcfc;
   height: 70px;
 
   .left {
@@ -16,14 +18,14 @@
 
       a {
         background: none !important;
-        color: #658ded;
+        color: #333;
         font-family: 'Montserrat';
         font-size: 1.3rem;
 
 
         &:hover {
-          border: 1px solid #658ded;
-          color: #658ded;
+          border: 1px solid #333;
+          color: #333;
         }
       }
     }
