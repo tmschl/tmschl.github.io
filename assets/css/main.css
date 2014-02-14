@@ -505,8 +505,24 @@ html {
   line-height: 1.5em; }
 
 .title-wrapper {
-  height: 700px;
-  background: white; }
+  background: white;
+  margin-bottom: 35px; }
+  .title-wrapper:first-child {
+    margin-top: 115px; }
+  .title-wrapper .title-link {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.1;
+    color: #333332; }
+  .title-wrapper .title-date {
+    float: right;
+    font-size: 0.8rem;
+    margin-top: 10px; }
+  .title-wrapper .post-details {
+    padding-top: 35px;
+    border-top: 1px solid #cccccc;
+    padding-left: 0;
+    padding-right: 0; }
 
 .top-bar {
   position: fixed;
@@ -626,3 +642,13 @@ table {
       border: 1px solid #f2f2f2; }
   table tbody tr td {
     border: 1px solid #f2f2f2; }
+
+article h1 {
+  margin-top: 115px;
+  text-align: center; }
+article p {
+  margin-top: 35px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 1.5; }

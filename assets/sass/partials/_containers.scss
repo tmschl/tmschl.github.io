@@ -1,6 +1,30 @@
 
 .title-wrapper {
-  height: 700px;
   background: #fff;
+  margin-bottom: 35px;
+
+  &:first-child {
+    margin-top: 115px;
+  }
+
+  .title-link {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.1;
+    color: #333332;
+  }
+
+  .title-date {
+    float: right;
+    font-size: .8rem;
+    margin-top: 10px;
+  }
+
+  .post-details {
+    padding-top: 35px;
+    border-top: 1px solid #ccc;
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
