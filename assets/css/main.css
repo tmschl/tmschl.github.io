@@ -561,6 +561,14 @@ html {
         border-radius: 128px;
         border-bottom: 1px solid rgba(255, 255, 255, 0.8);
         box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3); }
+    .top-bar .avatar-section .avatar-link {
+      background: rgba(225, 225, 225, 0) !important; }
+
+@media only screen and (max-width: 40em) {
+  .avatar__float-right {
+    margin-top: 0px !important; }
+  .avatar {
+    float: right; } }
 
 .burger {
   border-right: none !important;
