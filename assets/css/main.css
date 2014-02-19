@@ -493,6 +493,12 @@ table {
 .icon-github:before {
   content: '\e803'; }
 
+.icon-square:before {
+  content: '\e801'; }
+
+.icon-dot:before {
+  content: '\e804'; }
+
 @font-face {
   font-family: 'good_foot';
   src: url('/assets/fonts/goodfoot.ttf') format('truetype');
@@ -504,16 +510,65 @@ html {
   font-size: 1.125em;
   line-height: 1.5em; }
 
-.splash-wrapper {
-  height: 450px; }
-  .splash-wrapper .left {
-    width: 50%;
-    height: 100%;
-    background: #364563; }
-  .splash-wrapper .right {
-    width: 50%;
-    height: 100%;
-    background: #cd4254; }
+.left-block {
+  width: 50%;
+  height: 450px;
+  background: #364563;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0; }
+
+.right-block {
+  width: 50%;
+  height: 450px;
+  background: #cd4254;
+  position: absolute;
+  top: 0;
+  left: 50%; }
+
+.author-name {
+  position: absolute;
+  width: 100%;
+  margin-top: 100px; }
+  .author-name h1 {
+    text-align: center;
+    font-size: 2em;
+    margin: 0px 0px;
+    font-family: 'Exo 2', sans-serif;
+    color: white;
+    margin-right: 220px;
+    letter-spacing: 0.1rem; }
+    .author-name h1 span {
+      border-bottom: 2px solid #cd4254;
+      padding-right: 10px; }
+
+.icon-placement {
+  position: absolute;
+  width: 100%;
+  margin-top: 170px;
+  text-align: center;
+  color: white;
+  margin-left: 110px; }
+  .icon-placement span {
+    font-size: 2rem;
+    border-bottom: 2px solid #364563;
+    padding-bottom: 3px;
+    padding-left: 15px;
+    letter-spacing: 0.3rem; }
+
+.greeting {
+  position: absolute;
+  width: 100%;
+  margin-top: 300px;
+  text-align: center; }
+  .greeting span {
+    color: white;
+    letter-spacing: 0.5rem;
+    padding-left: 0.5rem;
+    border: 2px solid white;
+    margin-left: 10px;
+    font-size: 2rem; }
 
 .top-bar {
   background: rgba(225, 225, 225, 0.4);
