@@ -504,25 +504,16 @@ html {
   font-size: 1.125em;
   line-height: 1.5em; }
 
-.title-wrapper {
-  background: white;
-  margin-bottom: 35px; }
-  .title-wrapper:first-child {
-    margin-top: 115px; }
-  .title-wrapper .title-link {
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 1.1;
-    color: #333332; }
-  .title-wrapper .title-date {
-    float: right;
-    font-size: 0.8rem;
-    margin-top: 10px; }
-  .title-wrapper .post-details {
-    padding-top: 35px;
-    border-top: 1px solid #cccccc;
-    padding-left: 0;
-    padding-right: 0; }
+.splash-wrapper {
+  height: 450px; }
+  .splash-wrapper .left {
+    width: 50%;
+    height: 100%;
+    background: #364563; }
+  .splash-wrapper .right {
+    width: 50%;
+    height: 100%;
+    background: #cd4254; }
 
 .top-bar {
   background: rgba(225, 225, 225, 0.4);
