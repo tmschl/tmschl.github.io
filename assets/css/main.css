@@ -541,7 +541,10 @@ html {
     letter-spacing: 0.1rem; }
     .author-name h1 span {
       border-bottom: 2px solid #cd4254;
-      padding-right: 10px; }
+      padding-right: 8px; }
+      .author-name h1 span:hover {
+        color: #cd4254;
+        border-bottom: 2px solid white; }
 
 .icon-placement {
   position: absolute;
@@ -556,6 +559,10 @@ html {
     padding-bottom: 3px;
     padding-left: 15px;
     letter-spacing: 0.3rem; }
+    .icon-placement span a {
+      color: white; }
+    .icon-placement span .icon-link:hover {
+      color: #364563; }
 
 .greeting {
   position: absolute;
@@ -570,6 +577,8 @@ html {
     font-size: 1rem;
     font-family: 'Exo 2', sans-serif;
     padding: 0.5rem; }
+    .greeting span:hover {
+      border: none; }
 
 .top-bar {
   background: rgba(225, 225, 225, 0.4);

@@ -33,7 +33,13 @@
 
     span {
       border-bottom: 2px solid #cd4254;
-      padding-right: 10px;
+      padding-right: 8px;
+
+    &:hover {
+      color: #cd4254;
+      border-bottom: 2px solid #fff;
+    }
+
     }
   }
 }
@@ -52,6 +58,15 @@
     padding-bottom: 3px;
     padding-left: 15px;
     letter-spacing: .3rem;
+    a {
+      color: #fff;
+    }
+
+    .icon-link {
+      &:hover {
+        color: #364563;
+      }
+    }
   }
 }
 
@@ -69,6 +84,11 @@
     font-size: 1rem;
     font-family: 'Exo 2', sans-serif;
     padding: .5rem;
+
+    &:hover {
+      border: none;
+    }
+
   }
 }
 
