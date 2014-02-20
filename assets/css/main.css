@@ -541,7 +541,7 @@ html {
     letter-spacing: 0.1rem; }
     .author-name h1 span {
       border-bottom: 2px solid #cd4254;
-      padding-right: 8px; }
+      padding-right: 7px; }
       .author-name h1 span:hover {
         color: #cd4254;
         border-bottom: 2px solid white; }
