@@ -564,11 +564,12 @@ html {
   text-align: center; }
   .greeting span {
     color: white;
-    letter-spacing: 0.5rem;
-    padding-left: 0.5rem;
+    letter-spacing: 0.2rem;
     border: 2px solid white;
-    margin-left: 10px;
-    font-size: 2rem; }
+    margin-left: 15px;
+    font-size: 1rem;
+    font-family: 'Exo 2', sans-serif;
+    padding: 0.5rem; }
 
 .top-bar {
   background: rgba(225, 225, 225, 0.4);
