@@ -510,6 +510,9 @@ html {
   font-size: 1.125em;
   line-height: 1.5em; }
 
+.block-wrap {
+  height: 450px; }
+
 .left-block {
   width: 50%;
   height: 450px;
@@ -579,6 +582,20 @@ html {
     padding: 0.5rem; }
     .greeting span:hover {
       border: none; }
+
+.title-box {
+  height: 90px; }
+  .title-box .title-date {
+    color: #888888;
+    font-weight: 200;
+    margin-top: 10px; }
+  .title-box .post-title {
+    margin-top: 30px; }
+    .title-box .post-title a {
+      font-family: 'Exo 2', sans-serif;
+      font-size: 2em;
+      font-weight: 300;
+      color: #545454; }
 
 .top-bar {
   background: rgba(225, 225, 225, 0.4);

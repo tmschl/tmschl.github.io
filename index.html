@@ -7,8 +7,17 @@ title: Home
   {% for post in site.posts %}
     <div class="title-wrapper">
       <div class="row">
-        <div class="small-7 small-centered columns post-details">
-          <a class="title-link" href="{{ post.url }}">{{ post.title }}</a><span class="title-date">{{ post.date | date: "%B %Y" }}</span>
+        <div class="small-6 small-centered columns post-details">
+          <div class="title-box">
+            <div class="post-title">
+              <a class="title-link" href="{{ post.url }}">
+                {{ post.title }}
+              </a>
+            </div>
+            <div class="title-date">
+              {{ post.date | date: "%B %Y" }}
+            </div>
+          </div>
         </div>
       </div>
     </div>

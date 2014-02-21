@@ -1,3 +1,7 @@
+.block-wrap {
+  height: 450px;
+}
+
 .left-block {
   width: 50%;
   height: 450px;
@@ -92,4 +96,25 @@
   }
 }
 
+.title-box {
+  height: 90px;
+
+    .title-date {
+      color: #888;
+      font-weight: 200;
+      margin-top: 10px;
+  }
+
+  .post-title {
+    margin-top: 30px;
+
+    a {
+      font-family: 'Exo 2', sans-serif;
+      font-size: 2em;
+      font-weight: 300;
+      color: #545454;
+    }
+
+  }
+}
 
