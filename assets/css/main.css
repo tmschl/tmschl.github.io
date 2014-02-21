@@ -533,7 +533,7 @@ html {
 .author-name {
   position: absolute;
   width: 100%;
-  margin-top: 100px; }
+  margin-top: 65px; }
   .author-name h1 {
     text-align: center;
     font-size: 2em;
@@ -543,34 +543,32 @@ html {
     margin-right: 220px;
     letter-spacing: 0.1rem; }
     .author-name h1 span {
-      border-bottom: 2px solid #cd4254;
       padding-right: 7px; }
       .author-name h1 span:hover {
-        color: #cd4254;
-        border-bottom: 2px solid white; }
+        color: #cd4254; }
 
 .icon-placement {
   position: absolute;
   width: 100%;
-  margin-top: 170px;
+  margin-top: 145px;
   text-align: center;
-  color: white;
-  margin-left: 110px; }
-  .icon-placement span {
-    font-size: 2rem;
-    border-bottom: 2px solid #364563;
-    padding-bottom: 3px;
-    padding-left: 15px;
-    letter-spacing: 0.3rem; }
-    .icon-placement span a {
-      color: white; }
-    .icon-placement span .icon-link:hover {
-      color: #364563; }
+  color: white; }
+  .icon-placement div {
+    margin-left: 213px; }
+    .icon-placement div span {
+      font-size: 2rem;
+      padding-bottom: 3px;
+      padding-left: 7px;
+      letter-spacing: 0.3rem; }
+      .icon-placement div span a {
+        color: white; }
+      .icon-placement div span .icon-link:hover {
+        color: #364563; }
 
 .greeting {
   position: absolute;
   width: 100%;
-  margin-top: 300px;
+  margin-top: 325px;
   text-align: center; }
   .greeting span {
     color: white;
@@ -588,7 +586,8 @@ html {
   .title-box .title-date {
     color: #888888;
     font-weight: 200;
-    margin-top: 10px; }
+    margin-top: 10px;
+    font-family: 'Exo 2', sans-serif; }
   .title-box .post-title {
     margin-top: 30px; }
     .title-box .post-title a {
@@ -727,11 +726,7 @@ table {
 article {
   color: #333332; }
   article h1 {
-    margin-top: 115px;
+    margin-top: 57px;
     text-align: center; }
   article p {
-    margin-top: 35px;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 22px;
-    line-height: 1.5; }
+    font-family: "freight-text-pro", Georgia, Cambria, "Times New Roman", Times, serif; }

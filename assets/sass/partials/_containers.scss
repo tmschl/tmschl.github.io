@@ -24,7 +24,7 @@
 .author-name {
   position: absolute;
   width: 100%;
-  margin-top: 100px;
+  margin-top: 65px;
 
   h1 {
     text-align: center;
@@ -36,12 +36,10 @@
     letter-spacing: .1rem;
 
     span {
-      border-bottom: 2px solid $red;
       padding-right: 7px;
 
     &:hover {
       color: $red;
-      border-bottom: 2px solid $white;
     }
 
     }
@@ -51,24 +49,27 @@
 .icon-placement {
   position: absolute;
   width: 100%;
-  margin-top: 170px;
+  margin-top: 145px;
   text-align: center;
   color: white;
-  margin-left: 110px;
 
-  span {
-    font-size: 2rem;
-    border-bottom: 2px solid $blue;
-    padding-bottom: 3px;
-    padding-left: 15px;
-    letter-spacing: .3rem;
-    a {
-      color: $white;
-    }
+  div {
+    margin-left: 213px;
 
-    .icon-link {
-      &:hover {
-        color: $blue;
+    span {
+      font-size: 2rem;
+      padding-bottom: 3px;
+      padding-left: 7px;
+      letter-spacing: .3rem;
+
+      a {
+        color: $white;
+      }
+
+      .icon-link {
+        &:hover {
+          color: $blue;
+        }
       }
     }
   }
@@ -77,7 +78,7 @@
 .greeting {
   position: absolute;
   width: 100%;
-  margin-top: 300px;
+  margin-top: 325px;
   text-align: center;
 
   span {
@@ -103,7 +104,8 @@
       color: #888;
       font-weight: 200;
       margin-top: 10px;
-  }
+      font-family: 'Exo 2', sans-serif;
+    }
 
   .post-title {
     margin-top: 30px;
