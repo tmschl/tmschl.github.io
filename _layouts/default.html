@@ -4,68 +4,24 @@
         <meta charset="utf-8">
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href='http://fonts.googleapis.com/css?family=Exo+2:400,800' rel='stylesheet' type='text/css'>
         <link rel "shortcut icon" href="">
-        <link rel="stylesheet" type="text/css" href="/assets/css/normalize.css">
-        <link rel="stylesheet" type="text/css" href="/assets/css/foundation.min.css">
         <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
-        <script type="text/javascript" src="//use.typekit.net/avm7wkb.js"></script>
-        <script src="/assets/js/jquery.min.js"></script>
     </head>
     <body>
-      <div class="block-wrap">
-        <div class="left-block">
-        </div>
-        <div class="right-block">
-        </div>
-        <div class="author-name">
-          <h1><span>Tim Schiller</span></h1>
-        </div>
-        <div class="icon-placement">
-          <div>
-            <span>
-              <a href="https://twitter.com/tmschl">
-                <i class="icon-twitter icon-link"></i>
-              </a>
-              <i class="icon-dot"></i>
-              <a href="http://rdio.com/people/tmschl">
-                <i class="icon-rdio icon-link"></i>
-              </a>
-              <i class="icon-dot"></i>
-              <a href="https://github.com/tmschl">
-                <i class="icon-github icon-link"></i>
-              </a>
-            </span>
-          </div>
-        </div>
 
-        <div class="greeting">
-          <div>
-            <span>I write JavaScript and I live in San Francisco.</span>
-          </div>
-        </div>
+      <div class="container">
+	
       </div>
 
-      <section class="main-section">
-        {{ content }}
-      </section>
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+        ga('create', 'UA-48114615-1', 'tmschl.github.io');
+        ga('send', 'pageview');
+      </script>
     </body>
-
-    <script src="/assets/js/foundation.min.js"></script>
-    <script src="/assets/js/scroll.js"></script>
-    <script src="/assets/js/fun.js"></script>
-    <script>
-      $(document).foundation();
-    </script>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-48114615-1', 'tmschl.github.io');
-      ga('send', 'pageview');
-    </script>
 
 </html>

@@ -1,122 +1,27 @@
-.block-wrap {
-  height: 450px;
+.container {
+  margin: 2em auto;
+  padding: 0 3%;
 }
 
-.left-block {
-  width: 50%;
-  height: 450px;
-  background: $blue;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
+
+.grid {
+  display: flex;
+  display: -mox-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.right-block {
-  width: 50%;
-  height: 450px;
-  background: $red;
-  position: absolute;
-  top: 0;
-  left: 50%;
+.grid--item {
+  flex: 1;
+  -ms-flex: 1;
+  -webkit-flex: 1;
+  -moz-box-flex: 1;
+  -webkit-box-flex: 1;
 }
-
-.author-name {
-  position: absolute;
-  width: 100%;
-  margin-top: 65px;
-
-  h1 {
-    text-align: center;
-    font-size: 2em;
-    margin: 0px 0px;
-    font-family: 'Exo 2', sans-serif;
-    color: $white;
-    margin-right: 220px;
-    letter-spacing: .1rem;
-
-    span {
-      padding-right: 7px;
-
-    &:hover {
-      color: $red;
-    }
-
-    }
-  }
-}
-
-.icon-placement {
-  position: absolute;
-  width: 100%;
-  margin-top: 145px;
-  text-align: center;
-  color: white;
-
-  div {
-    margin-left: 213px;
-
-    span {
-      font-size: 2rem;
-      padding-bottom: 3px;
-      padding-left: 7px;
-      letter-spacing: .3rem;
-
-      a {
-        color: $white;
-      }
-
-      .icon-link {
-        &:hover {
-          color: $blue;
-        }
-      }
-    }
-  }
-}
-
-.greeting {
-  position: absolute;
-  width: 100%;
-  margin-top: 325px;
-  text-align: center;
-
-  span {
-    color: $white;
-    letter-spacing: 0.2rem;
-    border: 2px solid white;
-    margin-left: 15px;
-    font-size: 1rem;
-    font-family: 'Exo 2', sans-serif;
-    padding: .5rem;
-
-    &:hover {
-      border: none;
-    }
-
-  }
-}
-
-.title-box {
-  height: 90px;
-
-    .title-date {
-      color: #888;
-      font-weight: 200;
-      margin-top: 10px;
-      font-family: 'Exo 2', sans-serif;
-    }
-
-  .post-title {
-    margin-top: 30px;
-
-    a {
-      font-family: 'Exo 2', sans-serif;
-      font-size: 2em;
-      font-weight: 300;
-      color: #545454;
-    }
-
-  }
-}
-
