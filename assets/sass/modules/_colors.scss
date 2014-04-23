@@ -1,11 +1,25 @@
+// ********************
+//
 // Base Color Schema
-$bg: #fff;
-$type: #000;
+//
+// ********************
 
+$color-background: #FFFFFF;
+$color-type: #323232;
+
+// ********************
+//
 // UI Color Scheme
-$asset-c: #f2f2f2;
-$main-c: #454545;
+//
+// ********************
 
-$red: #cd4254;
-$blue: #364563;
-$white: #fff;
+$color-brand-asset: #F2F2F2;
+$color-brand-main: #454545;
+
+//
+// Heuristic Colors
+//
+
+$color-warning: #D2AB59;
+$color-success: #5ABD94;
+$color-danger: #903D3D;

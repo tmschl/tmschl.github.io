@@ -1,10 +1,21 @@
+// ********************
+//
 // Import Modules
+//
+// ********************
+
 @import "partials/base";
 
+// ********************
+//
 // Import Partials
+//
+// ********************
+
 @import "partials/typography";
 @import "partials/containers";
 @import "partials/navbar";
+@import "partials/layouts";
 @import "partials/buttons";
 @import "partials/forms";
 @import "partials/links";
@@ -12,7 +23,3 @@
 @import "partials/menus";
 @import "partials/footer";
 @import "partials/tables";
-
-// Import Sections
-@import "sections/home";
-@import "sections/post";
