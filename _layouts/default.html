@@ -7,17 +7,19 @@
         <link rel "shortcut icon" href="">
         <link rel="stylesheet" type="text/css" href="/assets/lib/normalize-css/normalize.css">
         <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+        <script type="text/javascript" src="/assets/lib/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="/assets/js/app.js"></script>
     </head>
     <body>
-    	<header>
-			<nav>
-				<a href="/">Home</a>
-				<a href="/#about">About</a>
-				<a href="/blog">Blog</a>
-			</nav>
-		</header>
-		<main>
-        	{{ content }}
-        </main>
+      <main>{{ content }}</main>
+      <nav>
+        <div class="nav-wrap">
+          <ul class="list">
+            <li><a href="/">Home</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/#about">About</a></li>
+          </ul>
+        </div>
+      </nav>
     </body>
 </html>

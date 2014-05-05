@@ -4,10 +4,41 @@
 //
 // ********************
 
+main,
+nav {
+  display: inline-block;
+}
+
+nav {
+  position: absolute;
+}
+
+.nav-wrap {
+  max-width: 500px;
+  margin: 1em auto;
+
+  a {
+    margin-right: 2em;
+
+    &:hover {
+      border-bottom: 1px solid #454545;
+    }
+  }
+}
+
+.border-bottom {
+  border-bottom: 1px solid #454545;
+}
+
 .centered {
   text-align: center;
 }
 
 .masthead {
   margin: 2em 0;
+}
+
+.intro {
+  max-width: 700px;
+  margin: 0 auto;
 }
