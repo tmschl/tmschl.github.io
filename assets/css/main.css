@@ -186,7 +186,7 @@ table {
   -webkit-box-flex: 1; }
 
 html {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Karla', sans-serif;
   font-size: 1.125em; }
 
 h1 {
@@ -223,9 +223,6 @@ a {
 .masthead {
   margin: 2em 0; }
 
-.greeting {
-  margin: 10% 0; }
-
 .container {
   position: relative;
   text-align: left;
@@ -242,14 +239,16 @@ a {
   margin: 10% 0; }
 
 .greeting {
-  margin-top: 10%; }
+  margin: 10% 0; }
   .greeting h1, .greeting p {
     color: #383838; }
   .greeting h1 {
-    margin-bottom: 12px;
-    font-size: 28px; }
+    font-size: 42px;
+    margin-bottom: 0px;
+    text-transform: uppercase; }
   .greeting p {
-    margin-top: 9px; }
+    margin-top: 0;
+    color: #999; }
 
 .btn, .btn--navbar, .btn--primary, .btn--warning, .btn--danger {
   border: 3px solid;

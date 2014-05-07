@@ -13,10 +13,6 @@
   margin: 2em 0;
 }
 
-.greeting {
-  margin: 10% 0;
-}
-
 .container {
   position: relative;
   text-align: left;
@@ -33,20 +29,21 @@
   display: inline-block;
   margin: 10% 0;
 }
-
-.greeting {
-  margin-top: 10%;
+ .greeting {
+  margin: 10% 0;
   h1,
   p {
     color: #383838;
   }
 
   h1 {
-    margin-bottom: 12px;
-    font-size: 28px;
+    font-size: 42px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
   }
 
   p {
-    margin-top: 9px;
+    margin-top: 0;
+    color: #999;
   }
 }
