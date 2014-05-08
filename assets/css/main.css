@@ -200,6 +200,9 @@ p {
 a {
   color: #00aced; }
 
+footer {
+  color: #999; }
+
 .container {
   max-width: 1200px;
   padding: 0 20px;
@@ -223,11 +226,19 @@ a {
 .masthead {
   margin: 2em 0; }
 
+.ace-hood {
+  margin-top: 5%; }
+
 .container {
   position: relative;
   text-align: left;
   margin: 0 auto;
   max-width: 700px; }
+
+.avatar {
+  display: inline-block;
+  float: right;
+  margin-top: -20px; }
 
 .circle-image {
   width: 100px;
@@ -236,19 +247,43 @@ a {
   background-size: 100px;
   border-radius: 50%;
   display: inline-block;
-  margin: 10% 0; }
+  margin: 10% 0;
+  float: right; }
 
-.greeting {
-  margin: 10% 0; }
-  .greeting h1, .greeting p {
-    color: #383838; }
-  .greeting h1 {
-    font-size: 42px;
-    margin-bottom: 0px;
-    text-transform: uppercase; }
-  .greeting p {
-    margin-top: 0;
-    color: #999; }
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  color: #999; }
+
+.greeting h1 {
+  font-size: 42px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: 0; }
+.greeting p {
+  margin-top: 0; }
+
+.elevator {
+  margin-top: 15%; }
+
+.navigation {
+  position: absolute; }
+  .navigation ul {
+    list-style: none;
+    margin: 9px 0;
+    padding: 0; }
+  .navigation li {
+    padding: 20px; }
+    .navigation li:nth-child(1) {
+      background: #ff8b73; }
+    .navigation li:nth-child(2) {
+      background: #70f8a3; }
+    .navigation li:nth-child(3) {
+      background: #ffd773; }
 
 .btn, .btn--navbar, .btn--primary, .btn--warning, .btn--danger {
   border: 3px solid;

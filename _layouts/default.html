@@ -8,15 +8,30 @@
         <link rel="stylesheet" type="text/css" href="/assets/lib/normalize-css/normalize.css">
         <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
         <link href='http://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Poly' rel='stylesheet' type='text/css'>
         <script type="text/javascript" src="/assets/lib/jquery/dist/jquery.min.js"></script>
         <script type="text/javascript" src="/assets/js/app.js"></script>
     </head>
     <body>
 
-      <section class="container about">
-        {{ content }}
-      </section>
+      <div class="ace-hood">
+        <div class="navigation">
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Writing</a></li>
+            <li><a href="#">Work</a></li>
+          </ul>
+        </div>
+
+        <section class="container about">
+          {{ content }}
+        </section>
+          <footer>
+              <div>Tim Schiller</div>
+              <br>
+              <a href="github.com/tmschl/tmschl.github.io">Source</a>
+            </p>
+          </footer>
+      </div>
 
     </body>
 </html>
