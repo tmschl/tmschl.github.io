@@ -267,6 +267,9 @@ footer {
 .greeting p {
   margin-top: 0; }
 
+.intro p {
+  margin-bottom: 5%; }
+
 .elevator {
   margin-top: 15%; }
 
