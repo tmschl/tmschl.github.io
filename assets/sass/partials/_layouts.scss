@@ -81,6 +81,10 @@ footer {
 
   li {
     padding: 20px;
+
+    a {
+      color: #fefefe;
+    }
     &:nth-child(1) {
       background: #ff8b73;
     }
@@ -91,4 +95,22 @@ footer {
       background: #ffd773;
     }
   }
+}
+
+
+@media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
+  .navigation {
+    display: none;
+  }
+
+  .avatar {
+    display: block;
+  }
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+  .navigation {
+    display: none;
+  }
+
 }

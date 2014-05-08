@@ -278,12 +278,24 @@ footer {
     padding: 0; }
   .navigation li {
     padding: 20px; }
+    .navigation li a {
+      color: #fefefe; }
     .navigation li:nth-child(1) {
       background: #ff8b73; }
     .navigation li:nth-child(2) {
       background: #70f8a3; }
     .navigation li:nth-child(3) {
       background: #ffd773; }
+
+@media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
+  .navigation {
+    display: none; }
+  .avatar {
+    display: block; } }
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .navigation {
+    display: none; } }
 
 .btn, .btn--navbar, .btn--primary, .btn--warning, .btn--danger {
   border: 3px solid;
