@@ -51,6 +51,9 @@ footer {
 }
 
 .greeting {
+  padding-bottom: 2.5%;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 5%;
 
   h1 {
     font-size: 42px;
@@ -68,12 +71,12 @@ footer {
 .intro {
 
   p {
-    margin-bottom: 5%;
+    // margin-bottom: 5%;
   }
 }
 
 .elevator {
-  margin-top: 15%;
+  // margin-top: 15%;
 }
 
 .navigation {

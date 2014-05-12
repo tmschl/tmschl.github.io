@@ -258,20 +258,20 @@ footer {
   text-align: center;
   color: #999; }
 
-.greeting h1 {
-  font-size: 42px;
-  margin-bottom: 0px;
-  text-transform: uppercase;
-  display: inline-block;
-  margin-top: 0; }
-.greeting p {
-  margin-top: 0; }
-
-.intro p {
+.greeting {
+  padding-bottom: 2.5%;
+  border-bottom: 1px solid #eee;
   margin-bottom: 5%; }
+  .greeting h1 {
+    font-size: 42px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 0; }
+  .greeting p {
+    margin-top: 0; }
 
-.elevator {
-  margin-top: 15%; }
+
 
 .navigation {
   position: absolute; }
