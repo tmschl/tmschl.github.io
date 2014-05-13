@@ -3,9 +3,14 @@ layout: default
 title: Blog
 ---
 
+<div class="greeting">
+	<h1>Writing</h1>
+	<p>A collection of my musings</p>
+</div>
+
 {% for post in site.posts %}
-	<article>
-	    {{ post.date | date: "%B %e, %Y" }}
-	    <a href="{{ post.url }}">{{ post.title }}</a>
-	</article>
+	<div class="post-titles">
+		<a href="{{ post.url }}">{{ post.title }} </a><p> - {{ post.date | date: "%B %e, %Y" }}</p>
+		<p class="description">{{ post.excerpt }}</p>
+	</div>
 {% endfor %}

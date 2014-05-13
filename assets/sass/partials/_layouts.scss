@@ -43,11 +43,10 @@
 
 footer {
   width: 100%;
-  position: absolute;
-  bottom: 0;
-  left: 0;
   text-align: center;
+  margin: 0 auto;
   color: #999;
+  margin-top: 15%;
 }
 
 .greeting {
@@ -90,10 +89,18 @@ footer {
   }
 
   li {
-    padding: 20px;
+    // padding: 20px;
 
     a {
-      color: #fefefe;
+      display: block;
+      width: 120px;
+      height: 60px;
+      padding: 20px;
+      text-align: center;
+      border-radius: 5px;
+      color: white;
+      font-weight: bold;
+      text-align: left;
     }
     &:nth-child(1) {
       background: #ff8b73;
@@ -107,6 +114,20 @@ footer {
   }
 }
 
+.post-titles {
+  margin-bottom: 5%;
+
+  a {
+    color: #383838;
+    border-bottom: 1px solid #b6b6b6;
+  }
+
+  p {
+    display: inline-block;
+    margin: 0;
+    color: #b6b6b6;
+  }
+}
 
 @media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
   .navigation {
