@@ -240,6 +240,9 @@ footer {
   float: right;
   margin-top: -20px; }
 
+.about {
+  min-height: 515px; }
+
 .circle-image {
   width: 100px;
   height: 100px;
@@ -254,8 +257,10 @@ footer {
   width: 100%;
   text-align: center;
   margin: 0 auto;
-  color: #999;
-  margin-top: 15%; }
+  color: #999; }
+
+.post h1 {
+  font-size: 42px; }
 
 .greeting {
   padding-bottom: 2.5%;
@@ -268,9 +273,8 @@ footer {
     display: inline-block;
     margin-top: 0; }
   .greeting p {
-    margin-top: 0; }
-
-
+    margin-top: 0;
+    color: #cdcdcd; }
 
 .navigation {
   position: absolute; }
@@ -295,15 +299,34 @@ footer {
   .navigation li:nth-child(3) {
     background: #ffd773; }
 
+.work {
+  margin-bottom: 5%; }
+
+.companies {
+  float: left;
+  width: 48%;
+  height: 300px;
+  display: inline-block; }
+  .companies p {
+    color: #cdcdcd; }
+
+.projects {
+  width: 49%;
+  margin-left: 2%;
+  display: inline-block; }
+  .projects p {
+    color: #cdcdcd; }
+
 .post-titles {
   margin-bottom: 5%; }
   .post-titles a {
-    color: #383838;
-    border-bottom: 1px solid #b6b6b6; }
+    border-bottom: 1px solid #eee; }
   .post-titles p {
     display: inline-block;
-    margin: 0;
-    color: #b6b6b6; }
+    margin: 2.5% 0 0 0; }
+
+.post-date {
+  color: #cdcdcd; }
 
 @media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
   .navigation {

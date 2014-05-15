@@ -5,12 +5,12 @@ title: Blog
 
 <div class="greeting">
 	<h1>Writing</h1>
-	<p>A collection of my musings</p>
+	<p>A collection of musings</p>
 </div>
 
 {% for post in site.posts %}
 	<div class="post-titles">
-		<a href="{{ post.url }}">{{ post.title }} </a><p> - {{ post.date | date: "%B %e, %Y" }}</p>
+		<a href="{{ post.url }}">{{ post.title }}</a><span class="post-date">&nbsp;&nbsp;- {{ post.date | date: "%B %e, %Y" }}</span>
 		<p class="description">{{ post.excerpt }}</p>
 	</div>
 {% endfor %}
