@@ -18,5 +18,8 @@
     "grunt-sass": "latest",
     "grunt-concurrent": "latest",
     "grunt-contrib-watch": "latest"
+  },
+  "dependencies": {
+    "metalsmith-collections": "^0.6.0"
   }
 }

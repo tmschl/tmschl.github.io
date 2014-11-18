@@ -1,7 +1,8 @@
-var Metalsmith = require('metalsmith'),
-    markdown   = require('metalsmith-markdown'),
-    sass       = require('metalsmith-sass'),
-    templates  = require('metalsmith-templates');
+var Metalsmith  = require('metalsmith'),
+    markdown    = require('metalsmith-markdown'),
+    sass        = require('metalsmith-sass'),
+    templates   = require('metalsmith-templates'),
+    collections = require('metalsmith-collections');
 
 
 Metalsmith(__dirname)
