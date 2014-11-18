@@ -1,25 +1,17 @@
 {
-  "name": "jekyll-boilerplate",
+  "name": "tmschl.com",
   "version": "0.0.0",
-  "description": "A Fancy Pants Jekyll Starting Point",
-  "main": "index.html",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/robbschiller/jekyll-boilerplate.git"
+  "description": "tmschl's web estate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "robbschiller",
-  "license": "BSD-2-Clause",
-  "bugs": {
-    "url": "https://github.com/robbschiller/jekyll-boilerplate/issues"
-  },
-  "devDependencies": {
-    "grunt": "latest",
-    "grunt-jekyll": "latest",
-    "grunt-sass": "latest",
-    "grunt-concurrent": "latest",
-    "grunt-contrib-watch": "latest"
-  },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "metalsmith-collections": "^0.6.0"
+    "handlebars": "^2.0.0",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-sass": "^0.5.0",
+    "metalsmith-templates": "^0.6.0"
   }
 }
