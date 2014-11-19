@@ -1,7 +1,8 @@
 ---
-layout: post
+collection: articles
 title: Diving Boards
 excerpt: Here’s the word. I’m new to this. By this I mean tumblr, but I also mean other things. And by other things I mean, interesting enough, the web.
+date: 05/16/2012
 ---
 {{ page.title }}
 ================

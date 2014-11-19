@@ -8,6 +8,12 @@ var Metalsmith  = require('metalsmith'),
 Metalsmith(__dirname)
     .use(markdown())
     .use(sass())
+    .use(collections({
+      articles: {
+        sortBy: 'date',
+        reverse: true
+      }
+    }))
     .use(templates({
         engine: 'handlebars',
         directory: './src/templates',
@@ -18,5 +24,10 @@ Metalsmith(__dirname)
     }))
     .destination('./build')
     .build(function(err) {
-      if (err) console.log(err);
+      if (err) {
+        console.log(err);
+      } else {
+        console.log("F2411 YOU ROBB")
+      }
+
     })

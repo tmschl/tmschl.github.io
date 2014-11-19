@@ -6,5 +6,8 @@
   </head>
   <body>
     {{>header}}
+    {{#each collections.articles}}
+      {{{contents}}}
+    {{/each}}
   </body>
 </html>

@@ -1,7 +1,8 @@
 ---
-layout: post
+collection: articles
 title: Re-Grow
 excerpt: Lots of us like to dream. It's almost cliche to talk about how kids are good at it, how they have these wild imaginations.
+date: 01/09/2013
 ---
 {{ page.title }}
 ================

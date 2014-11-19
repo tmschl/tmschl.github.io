@@ -1,7 +1,8 @@
 ---
-layout: post
+collection: articles
 title: Experience Equation Mockup
 excerpt: I like to think there are two kinds of mistakes. The things we regret doing, and the things we regret not doing. Not a new concept, but an important one.
+date: 10/02/2012
 ---
 {{ page.title }}
 ================
