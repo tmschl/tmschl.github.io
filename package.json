@@ -15,7 +15,7 @@
     "metalsmith-autoprefixer": "^0.1.2",
     "metalsmith-markdown": "^0.2.1",
     "metalsmith-sass": "^0.5.0",
-    "metalsmith-serve": "0.0.1",
+    "metalsmith-serve": "0.0.3",
     "metalsmith-simplewatch": "^1.0.0",
     "metalsmith-templates": "^0.6.0",
     "metalsmith-watch": "^0.1.1",
