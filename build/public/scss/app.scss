@@ -1,6 +1,18 @@
-// Import glob
-$grid-break: 790px;
-$grid-gutter-width: 20px;
+@import "nav.scss";
 
-@import '../../../bower_components/aglobof-sass/glob';
-@import 'nav';
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #fafafa;
+}
+
+a {
+  text-decoration: none;
+}
