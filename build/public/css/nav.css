@@ -30,6 +30,10 @@
 
   .nav {
     width: 100%; }
+    .nav .logo {
+      height: 20px;
+      border-bottom: 3px solid #0082ff;
+      font-size: 12px; }
 
   .hamburger {
     position: relative;
@@ -44,4 +48,7 @@
     height: 0.05em;
     background: #0082ff;
     box-shadow: 0 0.25em 0 0 #0082ff, 0 0.5em 0 0 #0082ff; }
+
+  .intro-text {
+    font-size: 18px; }
  }
