@@ -1,4 +1,5 @@
 $blue: #0082ff;
+$gray: #777;
 
 .nav {
   font-family: 'roboto';
@@ -27,11 +28,30 @@ $blue: #0082ff;
   font-family: 'Roboto';
   padding: 0% 18%;
   font-size: 34px;
-  color: #777777;
+  color: $gray;
 
   .intro-text {
     margin-top: 0;
     font-weight: 300;
+  }
+}
+
+.pdm-block {
+  display: flex;
+  padding: 0% 18%;
+  font-family: San Francisco Display;
+
+  .pdm-title {
+    font-size: 18px;
+
+    .pdm-title-name {
+      color: $blue;
+    }
+  }
+
+  .pdm-data {
+    font-size: 14px;
+    color: $blue;
   }
 }
 
@@ -51,6 +71,7 @@ $blue: #0082ff;
       font-size: 12px;
     }
   }
+
 
   .hamburger {
     position: relative;

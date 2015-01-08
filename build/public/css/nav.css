@@ -19,10 +19,24 @@
   font-family: 'Roboto';
   padding: 0% 18%;
   font-size: 34px;
-  color: #777777; }
+  color: #777; }
   .intro .intro-text {
     margin-top: 0;
     font-weight: 300; }
+
+.pdm-block {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0% 18%;
+  font-family: San Francisco Display; }
+  .pdm-block .pdm-title {
+    font-size: 18px; }
+    .pdm-block .pdm-title .pdm-title-name {
+      color: #0082ff; }
+  .pdm-block .pdm-data {
+    font-size: 14px;
+    color: #0082ff; }
 
 @media (max-width: 900px) {
   .item-1, .item-2, .item-3 {
