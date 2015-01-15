@@ -40,11 +40,18 @@ $gray: #777;
   display: flex;
   padding: 0% 18%;
   font-family: San Francisco Display;
+  flex-wrap: wrap;
+  color: $gray;
 
-  .pdm-title {
+  .pdm-block-square {
+    // margin-right: 5%;
+    width: 33%;
+  }
+
+  .pdm-label {
     font-size: 18px;
 
-    .pdm-title-name {
+    .pdm-label-name {
       color: $blue;
     }
   }
@@ -55,7 +62,44 @@ $gray: #777;
   }
 }
 
-@media (max-width: 900px) {
+
+.article-block {
+  padding: 3% 18%;
+  font-family: San Francisco Display;
+  color: $gray;
+
+  .article-label {
+    font-size: 18px;
+
+    .article-label-name {
+      color: $blue;
+    }
+  }
+
+  .article-title {
+    padding: 2% 0%;
+    font-size: 28px;
+  }
+
+  .article-preview {
+    font-size: 14px;
+  }
+
+  .article-read {
+    color: $blue;
+  }
+
+  .article-footer {
+    padding: 2% 0%;
+    display: flex;
+
+    .date {
+      margin-right: auto;
+    }
+  }
+}
+
+@media (max-width: 710px) {
   .item-1,
   .item-2,
   .item-3 {
@@ -72,11 +116,11 @@ $gray: #777;
     }
   }
 
-
   .hamburger {
     position: relative;
     padding-left: 1.25em;
   }
+
   .hamburger:before {
     content: "";
     position: absolute;
@@ -91,6 +135,13 @@ $gray: #777;
   }
 
   .intro-text {
-    font-size: 18px;
+    font-size: 32px;
+  }
+
+  .pdm-block {
+    .pdm-block-square {
+      width: 100%;
+      margin-top: 15px;
+    }
   }
 }

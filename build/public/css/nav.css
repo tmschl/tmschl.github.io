@@ -29,16 +29,45 @@
   display: -ms-flexbox;
   display: flex;
   padding: 0% 18%;
-  font-family: San Francisco Display; }
-  .pdm-block .pdm-title {
+  font-family: San Francisco Display;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  color: #777; }
+  .pdm-block .pdm-block-square {
+    width: 33%; }
+  .pdm-block .pdm-label {
     font-size: 18px; }
-    .pdm-block .pdm-title .pdm-title-name {
+    .pdm-block .pdm-label .pdm-label-name {
       color: #0082ff; }
   .pdm-block .pdm-data {
     font-size: 14px;
     color: #0082ff; }
 
-@media (max-width: 900px) {
+.article-block {
+  padding: 3% 18%;
+  font-family: San Francisco Display;
+  color: #777; }
+  .article-block .article-label {
+    font-size: 18px; }
+    .article-block .article-label .article-label-name {
+      color: #0082ff; }
+  .article-block .article-title {
+    padding: 2% 0%;
+    font-size: 28px; }
+  .article-block .article-preview {
+    font-size: 14px; }
+  .article-block .article-read {
+    color: #0082ff; }
+  .article-block .article-footer {
+    padding: 2% 0%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+    .article-block .article-footer .date {
+      margin-right: auto; }
+
+@media (max-width: 710px) {
   .item-1, .item-2, .item-3 {
     display: none; }
 
@@ -64,5 +93,9 @@
     box-shadow: 0 0.25em 0 0 #0082ff, 0 0.5em 0 0 #0082ff; }
 
   .intro-text {
-    font-size: 18px; }
+    font-size: 32px; }
+
+  .pdm-block .pdm-block-square {
+    width: 100%;
+    margin-top: 15px; }
  }
