@@ -3,8 +3,6 @@ var Metalsmith  = require('metalsmith'),
     sass        = require('metalsmith-sass'),
     templates   = require('metalsmith-templates'),
     collections = require('metalsmith-collections'),
-    serve       = require('metalsmith-serve'),
-    watch       = require('metalsmith-watch'),
     autoprefixer = require('metalsmith-autoprefixer');
 
 Metalsmith(__dirname)
@@ -15,7 +13,6 @@ Metalsmith(__dirname)
       outputDir: 'css'
     }))
     .use(autoprefixer())
-    .use(watch('**/*.scss'))
     .build(function(err) {
       if (err) throw err;
     })
@@ -30,14 +27,13 @@ Metalsmith(__dirname)
     }))
     .use(templates({
         engine: 'handlebars',
-        directory: './src/templates',
+        directory: 'templates',
         partials: {
             head: 'partials/head',
             header: 'partials/header',
             footer: 'partials/footer'
         }
     }))
-    .use(serve())
     .build(function(err) {
       if (err) console.log(err);
     })

@@ -1,5 +1,6 @@
 ---
-template: index.html
+title: Home
+template: home.html
 ---
 
 ## Metalsmith
