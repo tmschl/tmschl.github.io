@@ -39,12 +39,6 @@ Metalsmith(__dirname)
             footer: 'partials/footer'
         }
     }))
-    .use(function (files, metalsmith, done) {
-      for (var file in files){
-        console.log(file);
-      }
-      done();
-    })
     .build(function(err, a, b, c) {
       if (err) console.log(err);
     })

@@ -1,0 +1,15 @@
+<html>
+  {{>head}}
+  <body>
+    {{>navigation}}
+
+    <ul>
+      {{#each collections.articles}}
+      <li>
+        <a href="{{{ this.url }}}">{{{title}}}</a>
+      </li>
+      {{/each}}
+    </ul>
+
+  </body>
+</html>
