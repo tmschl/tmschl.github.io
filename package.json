@@ -16,5 +16,6 @@
     "metalsmith-sass": "^0.7.0",
     "metalsmith-templates": "^0.6.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+  }
 }

@@ -5,6 +5,11 @@ var Metalsmith  = require('metalsmith'),
     collections = require('metalsmith-collections'),
     autoprefixer = require('metalsmith-autoprefixer');
 
+var makeSense = function () {
+  return function (files, metalsmith, done) {
+  };
+};
+
 Metalsmith(__dirname)
     .source('src/public/scss')
     .destination('build/public')
@@ -30,10 +35,16 @@ Metalsmith(__dirname)
         directory: 'templates',
         partials: {
             head: 'partials/head',
-            header: 'partials/header',
+            navigation: 'partials/navigation',
             footer: 'partials/footer'
         }
     }))
-    .build(function(err) {
+    .use(function (files, metalsmith, done) {
+      for (var file in files){
+        console.log(file);
+      }
+      done();
+    })
+    .build(function(err, a, b, c) {
       if (err) console.log(err);
     })

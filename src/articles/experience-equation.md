@@ -2,11 +2,10 @@
 collection: articles
 title: Experience Equation Mockup
 excerpt: I like to think there are two kinds of mistakes. The things we regret doing, and the things we regret not doing. Not a new concept, but an important one.
+template: post.html
+url: experience-equation.html
 date: 10/02/2012
 ---
-{{ page.title }}
-================
-
 I like to think there are two kinds of mistakes. The things we regret doing, and the things we regret not doing. Not a new concept, but an important one.
 
 Doing and not succeeding is not “mistake”, it is failure, but it is not mistake.

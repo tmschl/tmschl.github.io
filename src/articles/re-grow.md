@@ -2,11 +2,10 @@
 collection: articles
 title: Re-Grow
 excerpt: Lots of us like to dream. It's almost cliche to talk about how kids are good at it, how they have these wild imaginations.
+template: post.html
+url: re-grow.html
 date: 01/09/2013
 ---
-{{ page.title }}
-================
-
 Lots of us like to dream. It's almost cliche to talk about how kids are good at it, how they have these wild imaginations. But that as we age, somehow, we lose the art of it.
 
 I agree. There is something so organic and pure in the dreams of a child. We could entertain ourselves for hours by exploring the depths and beauty of their dreams. We'd say things like free to fail, no walls, innocence. If you sat with a child and talked about dreams though, it wouldn't make sense to them.

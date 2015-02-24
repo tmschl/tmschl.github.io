@@ -1,13 +1,12 @@
 ---
 collection: articles
 title: Diving Boards
-excerpt: Here’s the word. I’m new to this. By this I mean tumblr, but I also mean other things. And by other things I mean, interesting enough, the web.
+template: post.html
+excerpt: Here's the word. I'm new to this. By this I mean tumblr, but I also mean other things. And by other things I mean, interesting enough, the web.
+url: diving-boards.html
 date: 05/16/2012
 ---
-{{ page.title }}
-================
-
-Here’s the word. I’m new to this. By this I mean tumblr, but I also mean other things. And by other things I mean, interesting enough, the web.
+Here's the word. I'm new to this. By this I mean tumblr, but I also mean other things. And by other things I mean, interesting enough, the web.
 
 **Let me explain**
 
