@@ -19,7 +19,7 @@ Metalsmith(__dirname)
     }))
     .use(autoprefixer())
     .build(function(err) {
-      if (err) throw err;
+      if (err) console.log(err);
     })
 
 Metalsmith(__dirname)

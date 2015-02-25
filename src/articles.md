@@ -1,5 +1,5 @@
 ---
 title: About
-template: about.html
+template: articles.html
 ---
 

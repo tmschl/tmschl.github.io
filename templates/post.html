@@ -3,13 +3,15 @@
   <body>
     {{>navigation}}
 
-    {{title}}
+    <div class="pad-content">
+      <h1 class="post-title">{{title}}</h1>
+    </div>
 
-    {{{contents}}}
-<!--
-    {{#each collections.articles}}
-      {{{title}}}
-    {{/each}} -->
+    <section class="pad-content">
+      <div class="reading-content">
+        <p> {{{contents}}}</p>
+      </div>
+    </section>
 
   </body>
 </html>

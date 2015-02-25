@@ -1,3 +1,21 @@
+*, *:before, *:after {
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; }
+
+html {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background-color: #eee; }
+
+a {
+  text-decoration: none; }
+
+.pad-content {
+  padding: 0% 18%; }
+
 .nav {
   font-family: 'roboto';
   font-size: 20px;
@@ -67,6 +85,27 @@
     .article-block .article-footer .date {
       margin-right: auto; }
 
+h1 {
+  font-size: 52px;
+  font-family: 'Roboto';
+  color: #777; }
+
+.pad-content .reading-content {
+  color: #777;
+  font-family: Roboto;
+  font-size: 22px;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.5;
+  font-weight: 300; }
+
+.post-title {
+  font-size: 52px;
+  font-family: 'Roboto';
+  color: #777;
+  text-align: center;
+  margin-top: 0px; }
+
 @media (max-width: 710px) {
   .item-1, .item-2, .item-3 {
     display: none; }
@@ -93,18 +132,3 @@
   .pdm-block .pdm-block-square {
     width: 100%;
     margin-top: 15px; } }
-
-*, *:before, *:after {
-  -moz-box-sizing: inherit;
-  box-sizing: inherit; }
-
-html {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
-
-body {
-  margin: 0;
-  background-color: #eee; }
-
-a {
-  text-decoration: none; }
