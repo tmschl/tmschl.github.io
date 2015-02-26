@@ -7,9 +7,13 @@ html {
 
 body {
   margin: 0;
-  background-color: #eee;
+  background-color: $white-gray;
 }
 
 a {
   text-decoration: none;
+}
+
+div, a, p, span {
+  font-family: 'Roboto', helvetica, sans-serif;
 }

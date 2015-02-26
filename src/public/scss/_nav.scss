@@ -1,28 +1,35 @@
 .nav {
-  font-family: 'roboto';
   font-size: 20px;
   display: flex;
   width: 100%;
   padding: 3% 18% 0%;
 
-  .logo-link, .logo {
+  .logo-link {
     margin-right: auto;
-    color: #0082ff;
+    color: $blue;
     height: 35px;
-    border-bottom: 2px solid #0082ff;
+    border-bottom: 2px solid $blue;
+
+    &:hover {
+      color: $blue-light;
+      border-bottom: 2px solid $blue-light;
+    }
   }
 
   .item {
 
     a {
-      color: #0082ff;
+      color: $blue;
       margin-left: 35px;
+
+    &:hover {
+      color: $blue-light;
+    }
     }
   }
 }
 
 .intro {
-  font-family: 'Roboto';
   padding: 0% 18%;
   font-size: 34px;
   color: $gray;
@@ -37,12 +44,10 @@
 .pdm-block {
   display: flex;
   padding: 0% 18%;
-  font-family: San Francisco Display;
   flex-wrap: wrap;
   color: $gray;
 
   .pdm-block-square {
-    // margin-right: 5%;
     width: 33%;
   }
 
@@ -63,7 +68,6 @@
 
 .article-block {
   padding: 3% 18%;
-  font-family: San Francisco Display;
   color: $gray;
 
   .article-label {
