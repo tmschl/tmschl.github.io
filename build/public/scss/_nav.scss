@@ -1,18 +1,15 @@
-$blue: #0082ff;
-$gray: #777;
-
 .nav {
   font-family: 'roboto';
   font-size: 20px;
   display: flex;
   width: 100%;
-  padding: 3% 18%;
+  padding: 3% 18% 0%;
 
   .logo-link, .logo {
     margin-right: auto;
     color: #0082ff;
     height: 35px;
-    border-bottom: 5px solid #0082ff;
+    border-bottom: 2px solid #0082ff;
   }
 
   .item {
@@ -31,6 +28,7 @@ $gray: #777;
   color: $gray;
 
   .intro-text {
+    padding-top: 3%;
     margin-top: 0;
     font-weight: 300;
   }
