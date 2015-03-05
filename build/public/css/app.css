@@ -179,6 +179,33 @@ div, a, p, span {
   .filter-container .selected {
     color: #777777; }
 
+.about-wrapper {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  margin: 3% 0%; }
+
+.about-photo .about-img {
+  width: 591px; }
+
+.about-info {
+  margin-left: 5%; }
+  .about-info .about-list-header {
+    margin: 0;
+    color: #777;
+    font-size: 28px;
+    font-weight: 400; }
+  .about-info .about-list {
+    list-style: none;
+    color: #777;
+    font-size: 16px;
+    margin-top: 10px; }
+  .about-info li {
+    margin-top: 10px; }
+
 @media (max-width: 710px) {
   .item-1, .item-2, .item-3 {
     display: none; }

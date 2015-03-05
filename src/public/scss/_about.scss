@@ -1,0 +1,34 @@
+.about-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 3% 0%;
+}
+
+.about-photo {
+  .about-img {
+    width: 591px;
+  }
+
+}
+
+.about-info {
+  margin-left: 5%;
+
+  .about-list-header {
+    margin: 0;
+    color: #777;
+    font-size: 28px;
+    font-weight: 400;
+  }
+
+  .about-list {
+    list-style: none;
+    color: #777;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  li {
+    margin-top: 10px;
+  }
+}
