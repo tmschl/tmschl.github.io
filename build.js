@@ -5,11 +5,6 @@ var Metalsmith  = require('metalsmith'),
     collections = require('metalsmith-collections'),
     autoprefixer = require('metalsmith-autoprefixer');
 
-var makeSense = function () {
-  return function (files, metalsmith, done) {
-  };
-};
-
 Metalsmith(__dirname)
     .source('src/public/scss')
     .destination('build/public')
