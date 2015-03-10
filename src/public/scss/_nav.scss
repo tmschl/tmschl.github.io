@@ -67,7 +67,7 @@
 .article-row {
   display: flex;
   flex-wrap: wrap;
-  margin: 0% 18%;
+  padding: 0% 18%;
 }
 
 .article-photo {
@@ -92,7 +92,6 @@
 .article-block {
   color: $gray;
   margin-top: 45px;
-  width: 66%;
   padding-right: 5%;
 
   .article-label {

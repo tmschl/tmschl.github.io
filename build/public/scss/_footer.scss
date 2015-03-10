@@ -1,0 +1,40 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0 0 100px; /* bottom = footer height */
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.footer {
+
+  .footer-list {
+    list-style: none;
+    padding: 2% 18%;
+    border-top: 1px solid $gray-light;
+  }
+
+  .footer-item {
+    display: inline;
+    margin-right: 10px;
+  }
+
+  a {
+    color: $gray;
+
+    &:hover {
+      color: $gray-light;
+    }
+  }
+
+}
