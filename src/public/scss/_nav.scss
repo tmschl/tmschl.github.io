@@ -7,7 +7,6 @@
   .logo-link {
     margin-right: auto;
     color: $blue;
-    height: 35px;
     border-bottom: 2px solid $blue;
 
     &:hover {
@@ -69,6 +68,7 @@
 .article-block {
   padding: 3% 18%;
   color: $gray;
+  font-weight: 300;
 
   .article-label {
     font-size: 18px;

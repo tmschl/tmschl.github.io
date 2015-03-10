@@ -29,7 +29,6 @@ div, a, p, span {
   .nav .logo-link {
     margin-right: auto;
     color: #0082ff;
-    height: 35px;
     border-bottom: 2px solid #0082ff; }
     .nav .logo-link:hover {
       color: rgba(0, 130, 255, 0.6);
@@ -70,7 +69,8 @@ div, a, p, span {
 
 .article-block {
   padding: 3% 18%;
-  color: #777777; }
+  color: #777777;
+  font-weight: 300; }
   .article-block .article-label {
     font-size: 18px; }
     .article-block .article-label .article-label-name {
@@ -97,7 +97,7 @@ div, a, p, span {
     color: #777777;
     margin-bottom: 0;
     font-weight: 700;
-    margin-top: 30px; }
+    margin-top: 10px; }
   .post-content .reading-content {
     color: #777777;
     font-size: 22px;
@@ -105,7 +105,7 @@ div, a, p, span {
     line-height: 1.5;
     font-weight: 300; }
     .post-content .reading-content p {
-      margin-top: 5px; }
+      margin-top: 0px; }
       .post-content .reading-content p:first-child {
         -webkit-margin-before: 0em;
         -webkit-margin-after: 0em; }
@@ -127,8 +127,6 @@ div, a, p, span {
   -ms-flex-order: 1;
   order: 1;
   margin-right: auto; }
-  .articles-container .article {
-    margin-bottom: 20px; }
   .articles-container .article-title {
     font-size: 28px;
     color: #777777;
@@ -138,7 +136,7 @@ div, a, p, span {
   .articles-container .article-excerpt {
     color: #777777;
     font-size: 16px;
-    margin-top: 10px;
+    margin-top: 0px;
     margin-bottom: 5px;
     font-weight: 300; }
   .articles-container .article-footer {
@@ -182,6 +180,25 @@ div, a, p, span {
   .filter-container .selected {
     color: #777777; }
 
+.filter-container {
+  display: none; }
+
+@media screen and (max-width: 1024px) {
+  .articles-wrapper {
+    margin: 3% 3%; }
+  .post-content {
+    padding: 0% 3%; } }
+
+@media screen and (max-width: 450px) {
+  .post-content .reading-content {
+    font-size: 16px; }
+  .post-content .post-title {
+    font-size: 20px;
+    margin-top: 5px; } }
+
+.about-container {
+  margin-right: 18%; }
+
 .about-wrapper {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -191,37 +208,54 @@ div, a, p, span {
   flex-flow: row wrap;
   margin: 3% 0%; }
 
-.about-photo .about-img {
-  width: 591px; }
+.about-photo {
+  width: 50%; }
+  .about-photo .about-img {
+    width: 100%; }
 
 .about-info {
   margin-left: 5%;
-  width: 30%; }
+  width: 45%; }
   .about-info .about-list-header {
     margin: 0;
     color: #777;
     font-size: 28px;
-    font-weight: 400; }
+    font-weight: 400;
+    line-height: 37px;
+    margin-bottom: 15px; }
   .about-info .about-list {
     list-style: none;
     color: #777;
     font-size: 14px;
-    margin-top: 10px;
-    padding-left: 30px; }
+    padding-left: 30px;
+    margin-top: 0px; }
   .about-info .about-list-facts {
-    margin-top: 15px; }
+    margin-bottom: 15px; }
   .about-info .about-company {
-    margin-top: 15px; }
+    margin-top: 15px;
+    margin-bottom: 3px; }
+    .about-info .about-company:first-child {
+      margin-top: 0px; }
+  .about-info .about-hustle .about-list {
+    line-height: 16px; }
 
-@media (max-width: 710px) {
+@media screen and (max-width: 768px) {
+  .about-container {
+    margin: 0; }
+  .about-photo {
+    width: 100%; }
+  .about-info {
+    width: 100%; } }
+
+@media (max-width: 1024px) {
   .item-1, .item-2, .item-3 {
     display: none; }
   .nav {
-    width: 100%; }
+    width: 100%;
+    padding: 3% 3% 0%; }
     .nav .logo-link {
-      height: 20px;
       border-bottom: 2px solid #0082ff;
-      font-size: 12px; }
+      font-size: 16px; }
   .hamburger {
     position: relative;
     padding-left: 1.25em; }
@@ -235,7 +269,13 @@ div, a, p, span {
     background: #0082ff;
     box-shadow: 0 0.25em 0 0 #0082ff, 0 0.5em 0 0 #0082ff; }
   .intro-text {
-    font-size: 32px; }
+    font-size: 36px; }
+  .intro, .pdm-block, .article-block {
+    padding: 0% 3%; }
+  .intro-text {
+    margin-bottom: 10px; } }
+
+@media (max-width: 500px) {
   .pdm-block .pdm-block-square {
     width: 100%;
-    margin-top: 15px; } }
+    margin-bottom: 10px; } }

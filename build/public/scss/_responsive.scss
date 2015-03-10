@@ -1,4 +1,4 @@
-@media (max-width: 710px) {
+@media (max-width: 1024px) {
   .item-1,
   .item-2,
   .item-3 {
@@ -7,11 +7,11 @@
 
   .nav {
     width: 100%;
+    padding: 3% 3% 0%;
 
     .logo-link {
-      height: 20px;
       border-bottom: 2px solid #0082ff;
-      font-size: 12px;
+      font-size: 16px;
     }
   }
 
@@ -34,13 +34,30 @@
   }
 
   .intro-text {
-    font-size: 32px;
+    font-size: 36px;
   }
 
   .pdm-block {
     .pdm-block-square {
+      // width: 100%;
+      // margin-top: 15px;
+    }
+  }
+
+  .intro, .pdm-block, .article-block {
+    padding: 0% 3%;
+  }
+
+  .intro-text {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .pdm-block {
+    .pdm-block-square {
       width: 100%;
-      margin-top: 15px;
+      margin-bottom: 10px;
     }
   }
 }
