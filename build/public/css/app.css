@@ -44,9 +44,9 @@ div, a, p, span {
   font-size: 34px;
   color: #777777; }
   .intro .intro-text {
-    padding-top: 3%;
-    margin-top: 0;
-    font-weight: 300; }
+    font-weight: 400;
+    margin-top: 35px;
+    margin-bottom: 50px; }
 
 .pdm-block {
   display: -webkit-flex;
@@ -67,23 +67,44 @@ div, a, p, span {
     font-size: 14px;
     color: #0082ff; }
 
+.article-row {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0% 18%; }
+
+.article-photo {
+  width: 33%;
+  margin-top: 45px; }
+  .article-photo .article-label {
+    font-size: 18px; }
+    .article-photo .article-label .article-label-name {
+      color: #0082ff; }
+
+.article-img {
+  width: 100%;
+  margin-top: 10px; }
+
 .article-block {
-  padding: 3% 18%;
   color: #777777;
-  font-weight: 300; }
+  margin-top: 45px;
+  width: 66%;
+  padding-right: 5%; }
   .article-block .article-label {
     font-size: 18px; }
     .article-block .article-label .article-label-name {
       color: #0082ff; }
   .article-block .article-title {
-    padding: 2% 0%;
     font-size: 28px; }
   .article-block .article-preview {
     font-size: 14px; }
   .article-block .article-read {
     color: #0082ff; }
   .article-block .article-footer {
-    padding: 2% 0%;
+    padding-top: 5px;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex; }
