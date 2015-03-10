@@ -13,6 +13,7 @@
 
 .about-info {
   margin-left: 5%;
+  width: 30%;
 
   .about-list-header {
     margin: 0;
@@ -24,11 +25,16 @@
   .about-list {
     list-style: none;
     color: #777;
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 10px;
+    padding-left: 30px;
   }
 
-  li {
-    margin-top: 10px;
+  .about-list-facts {
+    margin-top: 15px;
+  }
+
+  .about-company {
+    margin-top: 15px;
   }
 }

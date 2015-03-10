@@ -11,7 +11,10 @@ body {
   background-color: #f9f9f9; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #0082ff; }
+  a:hover {
+    color: rgba(0, 130, 255, 0.6); }
 
 div, a, p, span {
   font-family: 'Roboto', helvetica, sans-serif; }
@@ -192,7 +195,8 @@ div, a, p, span {
   width: 591px; }
 
 .about-info {
-  margin-left: 5%; }
+  margin-left: 5%;
+  width: 30%; }
   .about-info .about-list-header {
     margin: 0;
     color: #777;
@@ -201,10 +205,13 @@ div, a, p, span {
   .about-info .about-list {
     list-style: none;
     color: #777;
-    font-size: 16px;
-    margin-top: 10px; }
-  .about-info li {
-    margin-top: 10px; }
+    font-size: 14px;
+    margin-top: 10px;
+    padding-left: 30px; }
+  .about-info .about-list-facts {
+    margin-top: 15px; }
+  .about-info .about-company {
+    margin-top: 15px; }
 
 @media (max-width: 710px) {
   .item-1, .item-2, .item-3 {
