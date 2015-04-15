@@ -117,7 +117,7 @@ div, a, p, span {
     color: #777777;
     margin-bottom: 0;
     font-weight: 700;
-    margin-top: 10px; }
+    margin-top: 50px; }
   .post-content .reading-content {
     color: #777777;
     font-size: 22px;
@@ -268,8 +268,6 @@ div, a, p, span {
     width: 100%; } }
 
 @media (max-width: 1024px) {
-  .item-1, .item-2, .item-3 {
-    display: none; }
   .nav {
     width: 100%;
     padding: 3% 3% 0%; }
@@ -279,17 +277,11 @@ div, a, p, span {
   .hamburger {
     position: relative;
     padding-left: 1.25em; }
-  .hamburger:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0.25em;
-    width: 1em;
-    height: 0.05em;
-    background: #0082ff;
-    box-shadow: 0 0.25em 0 0 #0082ff, 0 0.5em 0 0 #0082ff; }
   .intro-text {
     font-size: 36px; }
+  .pdm-block .pdm-block-square {
+    width: 100%;
+    margin-top: 15px; }
   .intro, .pdm-block, .article-row {
     padding: 0% 3%; }
   .intro-text {
@@ -298,7 +290,12 @@ div, a, p, span {
 @media (max-width: 700px) {
   .pdm-block .pdm-block-square {
     width: 100%;
-    margin-bottom: 10px; } }
+    margin-bottom: 10px; }
+  .logo-link {
+    display: none; }
+  .nav .item a {
+    margin-right: 35px;
+    margin-left: 0px; } }
 
 html {
   position: relative;
