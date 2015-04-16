@@ -1,11 +1,10 @@
-var express = require('express');
-var app = express();
-var compression = require('compression');
-var oneDay = 86400000;
+var express = require('express'),
+    compression = require('compression'),
+    app = express();
 
 app.use(compression());
 
-app.use(express.static(__dirname + '/build/', { maxAge: oneDay }));
+app.use(express.static(__dirname + '/build/'));
 
 var port = process.env.PORT || 8000;
 app.listen(port, function(){
