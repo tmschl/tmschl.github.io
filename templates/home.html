@@ -70,26 +70,28 @@
         <div class="article-label">
           <span class="article-label-name">Articles //</span> Recent Commentary
         </div>
-        <div class="article-title">
-          Gulp is not the solution
-        </div>
-        <div class="article-preview">
-          Every once in a while a new tool comes around that everyone starts to learn and thinks is the new big ish, but the reality is that it's not. Here's a short story about why using gulp as your build tool is the real deal for every node.js engineer and how you can do it.
-        </div>
-        <div class="article-footer">
-          <div class="date">
-             10/19/14
-          </div>
-          <div class="article-read">
-            Read More >>
-          </div>
-        </div>
+        {{#each collections.articles}}
+            {{#if @last}}
+              <div class="article-title">
+                {{this.title}}
+              </div>
+              <div class="article-preview">
+                {{this.excerpt}}
+              </div>
+              <div class="article-footer">
+                <div class="date">
+                  {{this.date}}
+                </div>
+                <div class="article-read">
+                  <a href="/articles/{{this.url}}">
+                    Read More >>
+                  </a>
+                </div>
+              </div>
+            {{/if}}
+          {{/each}}
       </div>
     </section>
-<!--
-    {{#each collections.articles}}
-      {{{title}}}
-    {{/each}} -->
 
 
   {{> footer}}
