@@ -38,9 +38,3 @@ Metalsmith(__dirname)
     .build(function(err, a, b, c) {
       if (err) console.log(err);
     })
-
-Metalsmith(__dirname)
-    .use(serve())
-    .build(function(err){
-      if (err) throw err;
-    });
