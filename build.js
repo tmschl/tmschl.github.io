@@ -3,7 +3,6 @@ var Metalsmith  = require('metalsmith'),
     sass        = require('metalsmith-sass'),
     templates   = require('metalsmith-templates'),
     collections = require('metalsmith-collections'),
-    autoprefixer = require('metalsmith-autoprefixer'),
     serve       = require('metalsmith-serve');
 
 Metalsmith(__dirname)
@@ -13,7 +12,6 @@ Metalsmith(__dirname)
       outputStyle: 'expanded',
       outputDir: 'css'
     }))
-    .use(autoprefixer())
     .build(function(err) {
       if (err) console.log(err);
     })
