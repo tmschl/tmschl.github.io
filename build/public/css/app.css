@@ -6,7 +6,7 @@ html {
 
 body {
   margin: 0;
-  background-color: #f9f9f9; }
+  background-color: #fff; }
 
 a {
   text-decoration: none;
@@ -95,6 +95,31 @@ div, a, p, span {
     display: flex; }
     .article-block .article-footer .date {
       margin-right: auto; }
+
+h1 {
+  font-family: 'Roboto', helvetica, sans-serif; }
+
+.welcome-header {
+  margin-top: 5%; }
+  .welcome-header label {
+    font-size: 4em; }
+
+.welcome-description {
+  color: #919191; }
+
+.welcome-button {
+  width: 200px;
+  height: 30px;
+  background: #2ecc71;
+  color: white;
+  border-radius: 3px;
+  border: none;
+  font-size: 1em; }
+
+.welcome-email-style {
+  font-size: 1em;
+  height: 30px;
+  width: 200px; }
 
 .post-content {
   padding: 0% 18%; }

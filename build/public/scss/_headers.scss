@@ -1,1 +1,31 @@
+h1 {
+  font-family: 'Roboto', helvetica, sans-serif;
+}
 
+.welcome-header {
+  margin-top: 5%;
+
+  label {
+    font-size: 4em;
+  }
+}
+
+.welcome-description {
+  color: #919191;
+}
+
+.welcome-button{
+  width: 200px;
+  height: 30px;
+  background: #2ecc71;
+  color: white;
+  border-radius: 3px;
+  border: none;
+  font-size: 1em;
+}
+
+.welcome-email-style {
+  font-size: 1em;
+  height: 30px;
+  width: 200px;
+}
